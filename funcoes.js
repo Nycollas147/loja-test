@@ -1,7 +1,8 @@
-function calcularTotal(preco, quantity) {
-    return preco * quantity; // Voltou para a multiplicação (*)
+function calcularTotal(preco, quantidade) {
+    return preco * quantidade;
 }
 
+// Permite usar a função nos testes com Jest
 if (typeof module !== "undefined") {
     module.exports = { calcularTotal };
 }
